@@ -1,4 +1,4 @@
-!--
+<!--
   templateType: page
   isAvailableForNewContent: true
   label: About
