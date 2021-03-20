@@ -1,38 +1,351 @@
 <!DOCTYPE html>
-<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
-<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
-<!--[if IE 8]><html class="preIE9"><![endif]-->
-<!--[if gte IE 9]><!--><html><!--<![endif]-->
-  <head>
-    <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>title</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  <script type="text/javascript">
-   var _gaq = _gaq || [];
-   _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
-   _gaq.push(['_trackPageview']);
-   (function()
-   {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-   })();
-  </script>
-  </head>
-  <body>
-  
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js" type="text/javascript"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
-   function autorun()
-   {
+
+<html lang="en">
+    <head>
+        <!--Standart Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Rodica Anastasiu Personal Porfolio Page, as a database developer">
+        <meta name="keywords" content="Portfolio, SQL, T-SQL, Databases, MySQL, Oracle, SLQ Server, Python, Data Science, HTML, CSS, Javascript">
+        <meta name="author" content="Oriol FM">
+
+        <title>Rodica Anastasiu Portfolio</title>
+        
+        <!--bootstrap CSS file-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+               
+        <!--Font Awesome Icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/ce0d537b2a.js"></script>
+        
+        <!--Personal CSS file-->
+        <link rel="stylesheet" href="style.css">
+
+      
+
+    </head>
+    <body data-spy="scroll" data-target="#navbarResponsive" data-offset="0">
+        <header>
+            
+            
+            <!--Navigation bar-->
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+                <a class="navbar-brand fade-in-short" href="#presentation"> </span></a>
+                <button class="navbar-toggler fade-in-short" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+
+                <div class="collapse navbar-collapse fade-in-short" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#formation">Formation</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://codepen.io/oriolfornosm/full/abvJmzJ" target="_blank">Blog</a>
+                    </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                        
+                    </ul>
+
+
+                </div>
+            </nav>
+            <!--End fo Navigation Bar-->
+            
+            <!--Start Section-->
+
+            <div class="landing" id="welcome-section">
+                
+                <div class="jumbotron paral paralsec">
+                </div>
+
+                <div class="caption text-center fade-in">
+
+                        <h1 class="display-3">Oriol's Portfolio</h1>
+                        <h3>Junior DBA & Data Science</h3>
+                        <a class="btn btn-outline-light btn-lg bg-dark" href="#presentation"> Get Started</a>
+
+                </div>
+                
+            </div><!--End of Start Section-->
+
+        </header>
+
+        <!--Presentation Section-->
+        <div id="presentation"></div>
+        <br>
+        
+        <div id="presentation" class="offset">
+        <div class="container text-left" id="description-container">
+            <hr>
+            <h1 class="display-3">Hello World,</h1><br>
+        
+            <p class="lead">My name is Rodica Anastasiu, DBA, SQL Developer and Data Science (Python) trainee with work experience in OOP for Unity Engine. 
+            Also I'm self-taught in responsive web design using HTML5, CSS3 and JavaScript. My background formation comes from Psychology and it has been my main work experience,
+            but when I discovered programming I decided to take a huge spin in my life towards a completly new field of knowledge and work. Since then I'm learning about 
+            new technologies and tools related to data, data science and back-end solutions.         
+
+            </p>
+            <hr>
+        </div>
+            
+        </div>
+        <br>
+        <!--End of presentation Section-->
+
+        <!--Skills Section-->
+        <div id="skills" class="offset">
+        <!--Start of the Jumbotron-->
+        <div class="jumbotron">
+            <div class="col-12">
+                <h3 class="display-4 text-center">Skills</h3>
+                <hr>  
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4 column-border">
+                    <i class="fa fa-database fa-3x up-4.5"></i>
+                    
+                    <h3>Databases</h3>
+                    <p class="lead">DBA, Designer & SQL Developer in the main RDBMS
+                        such as SQL Server, Oracle & Mysql.
+
+                    </p>
+                </div>
+                
+                <div class="col-md-4 column-border ">
+                    <i class="fas fa-tools fa-3x"></i>
+                    
+                    <h3>Deployment</h3>
+                    <p class="lead"> Database Configuration, Query Tunning & Performance, Control & Security, Data Integrity. 
+
+                    </p>
+                </div>               
+                
+                <div class="col-md-4">
+                        <i class="fab fa-python fa-3x"></i>
+                        <h3>Analysis</h3>
+                        <p class="lead">Data Science skills with Python 3.X for data analysis and 
+                            graphical plotting. Experience using Pandas, Seaborn, MatplotLib & Numpy Libraries.
     
-   }
-   if (window.addEventListener) window.addEventListener("load", autorun, false);
-   else if (window.attachEvent) window.attachEvent("onload", autorun);
-   else window.onload = autorun;
-  </script>
-  </body>
+                        </p>
+                </div>
+
+                
+            </div>
+            <hr>
+            
+            <h3 class="display-4 text-center">Lenguages & Tools</h3>
+            <br><br>
+        <div class=container>
+           <div class="row text-center" id="icons">
+                <div class="col-sm-3"> <img src="https://i.ibb.co/1bqst73/29553.png" class="img-fluid tool_icon" alt="SQL-Logo"> </div>
+                <div class="col-sm-3"> <img src="https://i.ibb.co/n7PSgtW/sql-server-min.png" class="img-fluid tool_icon" alt="SQL-Server-Logo"> </div>
+                <div class="col-sm-3"><img src="https://i.ibb.co/pXt1JzV/oracle.png" class="img-fluid tool_icon" alt="Oracle-Logo"> </div>
+                <div class="col-sm-3"><img src="https://i.ibb.co/0BYjVj7/0dd7193f-e747-4a15-b797-818b9fac3656-mysql.png" class="img-fluid tool_icon" alt="MySQL-Logo"> </div>
+                
+            </div>
+            <hr>
+            <div class="row text-center" id="icons">
+                <div class="col-sm-3"><img src="https://i.ibb.co/XZ4NxWt/57b05419a7929de0dda06eaa7259cb84.png" class="img-fluid tool_icon" alt="Python-Logo"> </div>
+                <div class="col-sm-3"><img src="https://i.ibb.co/bNWVp30/43643b61-f7dc-47cf-86be-7b447eb5aba2-827f418a-8743-497e-b678-1b99cfcb608c-47d14ed0-381d-441a-af74-2a1e187b9bbb-logo-large.png" class="img-fluid tool_icon" alt="Anaconda-Logo"> </div>
+                <div class="col-sm-3"><img src="https://i.ibb.co/YR5ZkBn/Git-icon-svg.png" class="img-fluid tool_icon" alt="GIT-Logo"> </div>
+                <div class="col-sm-3"><img src="https://i.ibb.co/2ys0Wt8/spaces-Lq-BMLf-xut24di-ONqox-avatar.png" class="img-fluid tool_icon" alt="BASH-Logo"> </div>
+
+            </div>
+        </div>
+            
+
+
+        </div> <!--End of the Jumbotron-->
+            
+        
+        </div><!--End of Skills Section-->
+        
+        
+
+        <!--Projects Section-->
+        <div id="projects" class="offset"></div>
+        <br>
+        <br>
+        <div id="projects-container" >
+            <div class="container">  
+                <br>
+                <h3 class="display-4 text-center project-title">Projects </h3>
+                <hr>
+                <br>
+            </div>  
+            <div class="row justify-content-center" id="project-row-1">
+                
+                <div class="col-md-3">
+                        <div class="card text-center" style="width: 18rem;">
+                                <img class="card-img-top" src="https://i.ibb.co/9gcLm7p/911-calls.png" alt="Pic of 911 calls project">
+                                <div class="card-body">
+                                  <h5 class="card-title">911 Calls</h5>
+                                  <p class="card-text">Data Analysis & Graphical Plotting on a large 911 data set. Using Python, Pandas, Seaborn, MPL</p>
+                                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/OriolFornosm/911-Data-Analisis/blob/master/911%20Calls%20Data%20Analisis.ipynb" class="btn btn-outline-dark">Check the code</a>
+                                </div>
+                              </div>
+                </div>
+                <div class="col-md-3">
+                        <div class="card text-center" style="width: 18rem;">
+                                <img class="card-img-top" src="https://i.ibb.co/4S4b1m3/titanic-project.png" alt="Pic Titanic Project">
+                                <div class="card-body">
+                                  <h5 class="card-title">Titanic Plotting</h5>
+                                  <p class="card-text">Data & Graphical Analysis on the Titanic Dataset using Python, Pandas, Seaborn, MPL</p>
+                                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/OriolFornosm/Plotting-The-Titanic/blob/master/Plotting%20the%20Titanic.ipynb" class="btn btn-outline-dark">Check the code </a>
+                                </div>
+                              </div>
+                </div>
+                <div class="col-md-3 text-center">
+                        <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="https://i.ibb.co/7v1vbMW/e-commerce-project.png" alt="Pic of the product landing page">
+                                <div class="card-body">
+                                  <h5 class="card-title">E-Commerce</h5>
+                                  <p class="card-text">Data Analysis on a simulation of an E-Commerce data set. Using Python & Pandas</p>
+                                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/OriolFornosm/Ecommerce-Project/blob/master/Ecommerce%20Purchases.ipynb" class="btn btn-outline-dark">Check the code</i></a>
+                                </div>
+                              </div>
+                </div>
+                <div class="col-md-3 text-center">
+                        <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="https://i.ibb.co/dM5spKs/SF-Salaries-project.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">SF Salaries</h5>
+                                  <p class="card-text">Data Analysis on a demographic data set containing salaries information. Using Python & Pandas</p>
+                                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/OriolFornosm/SF-Salaries/blob/master/SF%20Salaries%20Exercise.ipynb" class="btn btn-outline-dark">Check the code</a>
+                                </div>
+                              </div>
+                </div>
+                
+            </div>
+        </div>
+
+                
+                    
+                   
+            
+    </div><!--End of Background image-->
+
+            <div class="parallax"></div>
+        </div><!--End of Projects Section-->
+
+        <!--Formation Section-->
+        <div id="formation" class="offset">
+            <div class="jumbotron text-center">
+                <div class="container">
+                    <h3 class="display-4">Formation</h3>
+                    <hr>
+                    <br>
+                </div>
+                <div class="row">
+                        <div class="col-sm-5">
+                          <div class="list-group text-left" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-course1-list" data-toggle="list" href="#list-course1" role="tab" aria-controls="course1"><i class="fas fa-angle-right"></i> DBA Professional Certification</a>
+                            <a class="list-group-item list-group-item-action" id="list-course2-list" data-toggle="list" href="#list-course2" role="tab" aria-controls="course2"><i class="fas fa-angle-right"></i> SQL Server </a>
+                                                        <a class="list-group-item list-group-item-action" id="list-course3-list" data-toggle="list" href="#list-course3" role="tab" aria-controls="course3"><i class="fas fa-angle-right"></i> Oracle Database</a>
+                            <a class="list-group-item list-group-item-action" id="list-course4-list" data-toggle="list" href="#list-course4" role="tab" aria-controls="course4"><i class="fas fa-angle-right"></i> Data Science & Big Data</a>
+                            <a class="list-group-item list-group-item-action" id="list-course5-list" data-toggle="list" href="#list-course5" role="tab" aria-controls="course5"><i class="fas fa-angle-right"></i> Responsive Web Design Certification</a>
+                          </div>
+                        </div>
+                        <div class="col-sm-7">
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-course1" role="tabpanel" aria-labelledby="list-course1-list"><p class="lead">6 Month Lenght course encopasing SQL, PL/SQL, Configuration, OS (Windows/Linux), Installation, configuration & development using main Database Management Systems, such as SQL Server, Oracle & MySQL. </p> </div>
+                            <div class="tab-pane fade" id="list-course2" role="tabpanel" aria-labelledby="list-course2-list"><p class="lead">Official courses on SQL Server for development on its platforms. Advanced T-SQL queries, Installation and configuration, Tunning and optimitzation, Ssecurity, ETL with SISS & Reporting with SRSS.</p> </div>
+                            <div class="tab-pane fade" id="list-course3" role="tabpanel" aria-labelledby="list-course3-list"><p class="lead"> Udemy Course on, Oracle Architecture & Memory Architecture, installation Oracle 11c / 12 g on UNIX Systems & Windows, Tablespace Managment, Users & Security, RMAN Backups, Manual Backups, REDO, UNDO management, Data Dictionaries, Table Views, Perfomance & Diagnostics, Optimitzation & Extract / Import Operations with SQL*Loader, Data Pump.
+ </p> </div>
+                                                        <div class="tab-pane fade" id="list-course4" role="tabpanel" aria-labelledby="list-course4-list"><p class="lead"> Data Science Bootcamp & Big Data Foundamentals courses on Udemy & IBM, using Python, Pandas, MPL, Seaborn for Data Analysis and Hadoop enviromment for Big Data solutions. </p> </div>
+                            <div class="tab-pane fade" id="list-course5" role="tabpanel" aria-labelledby="list-course5-list"><p class="lead">300+ hours course by Free Code Camp, about HTML5 & CSS, JavaScript applied visual design, applied accessibility, Responsive web design principles, CSS Flexbox & Grid layouts and 5+ web design real projects.</p></div>
+                          </div>
+                        </div>
+                      </div>
+                      
+            <hr>
+
+            </div>
+            
+        </div>
+        
+        <!--End of Formation Section-->
+
+        <!--Contact Section-->
+        <footer>
+            <div id="contact" class="offset">
+            
+                <div class="container" id="contact-container">
+
+
+                    <div class="container text-center" id="contact-info-container"> 
+                        
+                        <br>
+                        <h4><i class="fas fa-envelope-square"></i>  oriolfornosm{ad}gmail{dot}com</h4><br>
+                        <hr>
+
+                    </div>
+
+                
+                    <div class="container text-center" id="icon-container">
+
+        
+                        <div class=" container row">
+    
+          
+                            <div class="col-md-12 py-5">
+                                <div class="mb-6 flex-center">
+    
+              
+                                    <a href="www.linkedin.com/in/oriolfoma" target="_blank" id="profile-link">
+                                        <i class="fab fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                    </a>
+                                    
+                                    <a href="https://github.com/OriolFornosm" target="_blank" id="profile-link">
+                                        <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                    </a>
+                                    
+                                    <a href="https://codepen.io/oriolfornosm" target="_blank" id="profile-link">
+                                        <i class="fab fa-codepen fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                    </a>
+             
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+      <!-- Footer Elements -->
+    
+     
+    </footer><!--End of Contact Section-->
+
+        
+        
+        
+        
+        
+        <!-- jQuery first, then Popper.js, then Bootstrap JS & finally fontawesome pack for icons -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <!-- Personal JS file -->
+
+        <script src="script.js"></script>
+        
+    </body>
 </html>
+
